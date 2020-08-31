@@ -1,0 +1,102 @@
+#body-container-left{
+    width: 20%;
+    float: left;
+    .filterBy{
+        color: rgba(194, 187, 187, 0.849);
+    }
+}
+#body-container-right{
+    width: 80%;
+    float: left;
+    #card-container{
+        .card{
+            width: 300px;
+            height: 365px;
+            border-radius: 0;
+            border: none;
+            .card-bottom-left{
+                width: 60%;
+                height: 30%;
+                background-color: white;
+                position: absolute;
+                bottom: 0;
+                .productName0{
+                    font-weight: 700;
+                    font-size: 15px;
+                }
+                .productName1{
+                    color: rgba(167, 162, 162, 0.836);
+                    font-size: 12px;
+                }
+                .ratings{
+                    font-size: 10px;
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
+            .card-bottom-right{
+                width: 40%;
+                height: 20%;
+                background-color: white;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                text-align: right;
+                ._price{
+                    font-weight: 700;
+                    font-size: 15px;
+                    padding-right: 3px;
+                }
+                .addToCart{
+                    font-size: 16px;
+                    position: absolute;
+                    bottom: 0;
+                    right: 3px;
+                    cursor: pointer;;
+                }
+            }
+        }
+    }
+}
+#accordionExample{
+    .card{
+        border-radius: 0;
+        border: none;
+        .card-header{
+        background-color: white;
+        border-bottom: 1px solid rgb(177, 173, 173);
+        button{
+            text-decoration: none;
+            color: rgb(51, 50, 50);
+            text-align: left;
+            font-weight: 500;
+            i{
+                float: right;
+            }
+        }
+        }
+        .card-body{
+            #price-rangeMin{
+                height: 2px;
+                color: rgba(165, 155, 155, 0.664);
+
+            }
+            #price-rangeMax{
+                height: 2px;
+                color: rgba(165, 155, 155, 0.664);
+
+            }
+            #minValue{
+                font-size: 13px;
+                text-align: left;
+                font-weight: 700;
+            }
+            #maxValue{
+                font-size: 13px;
+                text-align: right;
+                font-weight: 700;
+            }
+            
+        }
+    }
+}

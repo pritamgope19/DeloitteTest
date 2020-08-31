@@ -1,0 +1,23 @@
+{
+  "name": "d_cart",
+  "version": "1.0.0",
+  "description": "test application for deloitte challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass/main.scss css/style.css",
+    "start": "live-server --open=D_Cart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/pritamgope19/DeloitteTest"
+  },
+  "author": "Pritam Gope",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "sass-loader": "^7.1.0"
+  }
+}

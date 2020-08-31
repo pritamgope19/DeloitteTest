@@ -1,0 +1,144 @@
+.logo > img {
+  width: 45px;
+  height: 45px;
+}
+
+.searchButton {
+  border: none;
+  background: transparent;
+}
+
+.searchBar {
+  width: 34%;
+  display: inline-flex;
+}
+.searchBar form > button {
+  font-size: 20px;
+}
+.searchBar form > button i {
+  font-weight: 600;
+}
+.searchBar form > input {
+  border: none;
+}
+.searchBar .form-control:focus {
+  color: black;
+  background-color: #fff;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #f3b27c;
+  border-radius: 0;
+}
+
+.cart > i {
+  font-weight: 400;
+  vertical-align: -webkit-baseline-middle;
+  font-size: 25px;
+}
+
+.login {
+  padding: 12px;
+}
+
+.navFont {
+  font-weight: bold;
+}
+
+#body-container-left {
+  width: 20%;
+  float: left;
+}
+#body-container-left .filterBy {
+  color: rgba(194, 187, 187, 0.849);
+}
+
+#body-container-right {
+  width: 80%;
+  float: left;
+}
+#body-container-right #card-container .card {
+  width: 300px;
+  height: 365px;
+  border-radius: 0;
+  border: none;
+}
+#body-container-right #card-container .card .card-bottom-left {
+  width: 60%;
+  height: 30%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+#body-container-right #card-container .card .card-bottom-left .productName0 {
+  font-weight: 700;
+  font-size: 15px;
+}
+#body-container-right #card-container .card .card-bottom-left .productName1 {
+  color: rgba(167, 162, 162, 0.836);
+  font-size: 12px;
+}
+#body-container-right #card-container .card .card-bottom-left .ratings {
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+}
+#body-container-right #card-container .card .card-bottom-right {
+  width: 40%;
+  height: 20%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+#body-container-right #card-container .card .card-bottom-right ._price {
+  font-weight: 700;
+  font-size: 15px;
+  padding-right: 3px;
+}
+#body-container-right #card-container .card .card-bottom-right .addToCart {
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  right: 3px;
+  cursor: pointer;
+}
+
+#accordionExample .card {
+  border-radius: 0;
+  border: none;
+}
+#accordionExample .card .card-header {
+  background-color: white;
+  border-bottom: 1px solid #b1adad;
+}
+#accordionExample .card .card-header button {
+  text-decoration: none;
+  color: #333232;
+  text-align: left;
+  font-weight: 500;
+}
+#accordionExample .card .card-header button i {
+  float: right;
+}
+#accordionExample .card .card-body #price-rangeMin {
+  height: 2px;
+  color: rgba(165, 155, 155, 0.664);
+}
+#accordionExample .card .card-body #price-rangeMax {
+  height: 2px;
+  color: rgba(165, 155, 155, 0.664);
+}
+#accordionExample .card .card-body #minValue {
+  font-size: 13px;
+  text-align: left;
+  font-weight: 700;
+}
+#accordionExample .card .card-body #maxValue {
+  font-size: 13px;
+  text-align: right;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */

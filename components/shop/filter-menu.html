@@ -1,0 +1,72 @@
+<div class="filterBy">FILTER BY</div>
+<div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header m-0 p-0" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Collection <i class="fas fa-angle-down"></i>
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header m-0 p-0" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Color <i class="fas fa-angle-down"></i>
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header m-0 p-0" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Category <i class="fas fa-angle-down"></i>
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header m-0 p-0" id="headingFour">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" >
+            Price Range
+          </button>
+        </h2>
+      </div>
+      <div id="collapseFour" class="" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          <div id="minValue" >
+            $ 0
+          </div>
+          <input type="range" name="priceRangeMin" id="price-rangeMin" step="100" min="0" max="5000" value="0" onchange="updateTextInput(this.value)">
+          <input type="range" name="priceRangeMax" id="price-rangeMax" step="100" min="1000" max="10000" value="10000" onchange="updateTextInput2(this.value)">
+          <div id="maxValue">
+            $ 10000
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function updateTextInput(val) {
+        document.getElementById('minValue').innerHTML = '$ ' + val;
+    }
+    function updateTextInput2(val) {
+        document.getElementById('maxValue').innerHTML = '$ ' + val;
+    }
+  </script>

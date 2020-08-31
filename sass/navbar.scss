@@ -1,0 +1,41 @@
+.logo >img{
+    width: 45px;
+    height: 45px;
+}
+.searchButton{
+    border: none;
+    background: transparent;
+}
+.searchBar{
+    width: 34%;
+    display: inline-flex;
+    form>button{
+        font-size: 20px;
+        i{
+            font-weight: 600;
+        }
+    }
+    form>input{
+        border: none;
+    }
+    .form-control:focus {
+        color: black;
+        background-color: #fff;
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+        border-bottom: 1px solid rgb(243, 178, 124);
+        border-radius: 0;
+    }
+}
+.cart> i{
+    font-weight: 400;
+    vertical-align: -webkit-baseline-middle;
+    font-size: 25px;
+}
+.login{
+    padding: 12px;
+}
+.navFont{
+    font-weight: bold ;
+}
