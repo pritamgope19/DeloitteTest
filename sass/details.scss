@@ -1,23 +1,26 @@
 #imageDetail{
     width: 100%;
     height: 450px;
-    @media screen and (min-width: 420px ) and ( max-width:620px ) {
-        width: 100%;
-        // height: 400px;
-    }
+    @media screen and (min-width: 420px ) and ( min-width: 780px ) {
+            width: 100%;
+        }
     #imageContainer{
         margin: auto;
-        width: 90%;
         #imageContain{
             vertical-align: middle;
             border-style: none;
-            width: 100%;
-            object-fit: contain;     
-            @media screen and (min-width: 575px ) and ( max-width:620px ) {
-                max-width: 250px;;
-            }       
+            max-width: 450px;
+            max-height: 450px;
+            object-fit: contain;            
         }
+        @media screen and (min-width: 575px ) and ( max-width:780px ) {
+            width: 90%;
+            #imageContain{
+                width: 100%;
+            }
+        } 
     }
+   
    
     button:focus{
         outline: none;
@@ -30,7 +33,7 @@
         position: relative;
         top: 45%;
         width: 5%;
-        @media screen and (min-width: 420px ) and ( max-width:620px ) {
+        @media screen and (min-width: 420px ) and ( max-width:780px ) {
             position: absolute;
             bottom: 50%;
             right: 0;
@@ -44,7 +47,7 @@
         position: relative;
         top: 45%;
         width: 5%;
-        @media screen and (min-width: 420px ) and ( max-width:620px ) {
+        @media screen and (min-width: 420px ) and ( min-width: 780px ) {
             position: absolute;
             bottom: 50%;
             left: 0;
@@ -61,7 +64,7 @@
     }
 }
 #detailsBox{
-    @media screen and (min-width: 420px ) and ( max-width:620px ) {
+    @media screen and (min-width: 420px ) and ( min-width: 780px ) {
 
         margin: auto;
         margin-top: 100px;
