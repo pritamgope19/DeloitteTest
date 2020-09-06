@@ -7,6 +7,7 @@
             var additional = length % 3 == 0 ? 0 : 1;
             var tolarRow = (length / 3) + additional;
             console.log(res.data)
+            loadedData = res.data;
             var container = document.getElementById("card-container");
             var idx = 0;
             for (var i = 0; i <= tolarRow; i++) {
@@ -26,6 +27,7 @@
                     el2.id = "card" + idx;
                     $(el2).appendTo('body').css('background-image', 'url(' + res.data[idx].displayImg + ')');
                     document.getElementById(el2.id).style.backgroundSize = "cover";
+                    document.getElementById(el2.id).setAttribute("onclick", "gotoDetails(" + idx + ")");
                     colContainer.append(el2);
                     var cardContainer = document.getElementById(el2.id);
                     var el3 = document.createElement("div");
@@ -59,6 +61,11 @@
                     $("#" + el4.id).html(htmlRight);
                     document.getElementById("price-" + idx).innerHTML = res.data[idx].price;
                     document.getElementById("cart" + idx).innerHTML = '<i class="fas fa-cart-plus"></i>';
+                    gotoDetails = function (data) {
+                        selectedData = res.data[data];
+
+                        $("#bodyContainer").load("../components/shop/item-detail.html",);
+                    }
 
                     idx++;
 
@@ -81,5 +88,6 @@
             console.log("An error has occurred.");
         });
     });
+    
 
 }(jQuery));

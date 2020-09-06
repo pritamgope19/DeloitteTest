@@ -1,3 +1,6 @@
+var loadedData = [];
+var selectedData = {};
+
 $("#navbar").load("./components/common/navbar.html");
 
 $(document).ready(function(){

@@ -1,130 +1,180 @@
 {
-    "staus":"Success",
-    "statusCode":200,
-    "data":[
-        {
-           "productId": 1,
-           "key": [
-              "bedroom",
-              "living room",
-              "bed",
-              "guest room"
-           ],
-           "type": "Ottoman Bed",
-           "price": "$2,500",
-           "displayName": "MALM",
-           "displayImg": "../img/bed/askvoll-bed-frame-white-luroey__0.jpg",
-           "initial": "malm-storage-bed__0",
-           "rating": 4,
-           "details": {
-              "texr": "A clean design with solid wood veneer. Place the bed freestanding or with the headboard against a wall. You also get spacious storage boxes that roll out smoothly on castors.",
-              "clolor": "",
-              "images": []
-           }
-        },
-        {
-           "productId": 1,
-           "key": [
-              "bedroom",
-              "living room",
-              "bed",
-              "guest room"
-           ],
-           "type": "Lonset Bed",
-           "price": "$2,100",
-           "displayName": "SONGESAND",
-           "displayImg": "../img/bed/askvoll-bed-frame-white-luroey__0.jpg",
-           "initial": "songesand-bed-0",
-           "rating": 5,
-           "details": {
-              "texr": "A sturdy bed frame with soft, profile edges and high legs. A classic shape that will last for many years. Complete with SONGESAND bed storage boxes to store extra bedding without taking up more space.",
-              "clolor": "",
-              "images": []
-           }
-        },
-        {
-           "productId": 2,
-           "key": [
-              "bedroom",
-              "living room",
-              "bed",
-              "guest room"
-           ],
-           "type": "Luroy Bed",
-           "price": "$1,200",
-           "displayName": "NODELAND",
-           "displayImg": "img/bed/askvoll-bed-frame-white-luroey__0.jpg",
-           "initial": "malm-storage-bed__0",
-           "rating": 4,
-           "details": {
-              "texr": "The price for this combination includes SKORVA midbeam, but it is a separate product which you pick from its own shelf at the store. If you buy the bed via the website, SKORVA midbeam is included in the delivery.",
-              "clolor": "",
-              "images": []
-           }
-        },
-        {
-           "productId": 4,
-           "key": [
-              "bedroom",
-              "living room",
-              "bed",
-              "guest room"
-           ],
-           "type": "Luroy Bed",
-           "price": "$1,600",
-           "displayName": "SAGSTUA",
-           "displayImg": "img/bed/askvoll-bed-frame-white-luroey__0.jpg",
-           "initial": "sagstua-bed-frame__0",
-           "rating": 3,
-           "details": {
-              "texr": "A classic bed frame with a brass twist. The curved headboard and brass-coloured details soften the sturdy steel. Dressed with your favourite linens, it becomes a statement piece and your own personal haven.",
-              "clolor": "",
-              "images": []
-           }
-        },
-        {
-           "productId": 5,
-           "key": [
-              "bedroom",
-              "living room",
-              "bed",
-              "guest room"
-           ],
-           "type": "Frame Bed",
-           "price": "$1,300",
-           "displayName": "GRIMSBU",
-           "displayImg": "img/bed/askvoll-bed-frame-white-luroey__0.jpg",
-           "initial": "grimsbu-bed-frame__0",
-           "rating": 2,
-           "details": {
-              "texr": "Simple, sturdy and easy to place. The low height is perfect under windows or sloped ceilings and there’s still plenty of space for storage boxes underneath. Assembles in a few easy steps.",
-              "clolor": "Grey",
-              "images": []
-           }
-        },
-        {
-           "productId": 6,
-           "key": [
-              "bedroom",
-              "living room",
-              "bed",
-              "guest room"
-           ],
-           "type": "White Luroy",
-           "price": "$2,300",
-           "displayName": "ASKVOLL",
-           "displayImg": "img/bed/askvoll-bed-frame-white-luroey__0.jpg",
-           "initial": "askvoll-bed-frame-white-luroey__0",
-           "rating": 4,
-           "details": {
-              "texr": "Let the clean, simple design stand out or let the bed be a backdrop for your favourite textiles or other furnishings. The low headboard makes it a perfect choice under a window or sloped ceiling.",
-              "clolor": "",
-              "images": [
-                 "img/bed/askvoll-bed-frame-white-luroey__0.jpg",
-                 "img/bed/askvoll-bed-frame-white-luroey__1.jpg",
-                 "img/bed/askvoll-bed-frame-white-luroey__2.jpg"
-              ]
-           }
-        }
-     ]
+   "staus": "Success",
+   "statusCode": 200,
+   "data": [
+      {
+         "productId": 1,
+         "key": [
+            "bedroom",
+            "living room",
+            "bed",
+            "guest room"
+         ],
+         "type": "Ottoman Bed",
+         "price": "$2,500",
+         "displayName": "MALM",
+         "displayImg": "../img/bed/malm-storage-bed__0.jpg",
+         "initial": "malm-storage-bed__0",
+         "rating": 4,
+         "details": {
+            "text": "A clean design with solid wood veneer. Place the bed freestanding or with the headboard against a wall. You also get spacious storage boxes that roll out smoothly on castors.",
+            "color": [
+               "White",
+               "Sky Blue",
+               "Gray"
+            ],
+            "selectedColor": "White",
+            "images": [
+               "malm-storage-bed__0.jpg",
+               "malm-storage-bed__1.jpg",
+               "malm-storage-bed__2.jpg"
+            ]
+         }
+      },
+      {
+         "productId": 1,
+         "key": [
+            "bedroom",
+            "living room",
+            "bed",
+            "guest room"
+         ],
+         "type": "Lonset Bed",
+         "price": "$2,100",
+         "displayName": "SONGESAND",
+         "displayImg": "../img/bed/songesand-bed-0.jpg",
+         "initial": "songesand-bed-0",
+         "rating": 5,
+         "details": {
+            "text": "A sturdy bed frame with soft, profile edges and high legs. A classic shape that will last for many years. Complete with SONGESAND bed storage boxes to store extra bedding without taking up more space.",
+            "color": [
+               "white",
+               "Red",
+               "Black"
+            ],
+            "selectedColor": "White",
+            "images": [
+               "songesand-bed-0.jpg",
+               "songesand-bed-1.jpg",
+               "songesand-bed-0.jpg"
+            ]
+         }
+      },
+      {
+         "productId": 2,
+         "key": [
+            "bedroom",
+            "living room",
+            "bed",
+            "guest room"
+         ],
+         "type": "Luroy Bed",
+         "price": "$1,200",
+         "displayName": "NODELAND",
+         "displayImg": "img/bed/nodeland-bed-frame__0.jpg",
+         "initial": "malm-storage-bed__0",
+         "rating": 4,
+         "details": {
+            "text": "The price for this combination includes SKORVA midbeam, but it is a separate product which you pick from its own shelf at the store. If you buy the bed via the website, SKORVA midbeam is included in the delivery.",
+            "color": [
+               "White",
+               "Red",
+               "Black"
+            ],
+            "selectedColor": "White",
+            "images": [
+               "nodeland-bed-frame__0.jpg",
+               "nodeland-bed-frame__1.jpg",
+               "nodeland-bed-frame__2.jpg"
+            ]
+         }
+      },
+      {
+         "productId": 4,
+         "key": [
+            "bedroom",
+            "living room",
+            "bed",
+            "guest room"
+         ],
+         "type": "Luroy Bed",
+         "price": "$1,600",
+         "displayName": "SAGSTUA",
+         "displayImg": "img/bed/sagstua-bed-frame__0.jpg",
+         "initial": "sagstua-bed-frame__0",
+         "rating": 3,
+         "details": {
+            "text": "A classic bed frame with a brass twist. The curved headboard and brass-coloured details soften the sturdy steel. Dressed with your favourite linens, it becomes a statement piece and your own personal haven.",
+            "color": [
+               "White",
+               "Red",
+               "Black"
+            ],
+            "selectedColor": "Black",
+            "images": [
+               "sagstua-bed-frame__0.jpg",
+               "sagstua-bed-frame__1.jpg",
+               "sagstua-bed-frame__2.jpg"
+            ]
+         }
+      },
+      {
+         "productId": 5,
+         "key": [
+            "bedroom",
+            "living room",
+            "bed",
+            "guest room"
+         ],
+         "type": "Frame Bed",
+         "price": "$1,300",
+         "displayName": "GRIMSBU",
+         "displayImg": "img/bed/grimsbu-bed-frame__0.jpg",
+         "initial": "grimsbu-bed-frame__0",
+         "rating": 2,
+         "details": {
+            "text": "Simple, sturdy and easy to place. The low height is perfect under windows or sloped ceilings and there’s still plenty of space for storage boxes underneath. Assembles in a few easy steps.",
+            "color": [
+               "Gray",
+               "Navy Blue",
+               "Brown"
+            ],
+            "selectedColor": "Gray",
+            "images": [
+               "grimsbu-bed-frame__0.jpg",
+               "grimsbu-bed-frame__1.jpg",
+               "grimsbu-bed-frame__2.jpg"
+            ]
+         }
+      },
+      {
+         "productId": 6,
+         "key": [
+            "bedroom",
+            "living room",
+            "bed",
+            "guest room"
+         ],
+         "type": "White Luroy",
+         "price": "$2,300",
+         "displayName": "ASKVOLL",
+         "displayImg": "img/bed/askvoll-bed-frame-white-luroey__0.jpg",
+         "initial": "askvoll-bed-frame-white-luroey__0",
+         "rating": 4,
+         "details": {
+            "text": "Let the clean, simple design stand out or let the bed be a backdrop for your favourite textiles or other furnishings. The low headboard makes it a perfect choice under a window or sloped ceiling.",
+            "color": [
+               "White",
+               "Red",
+               "Black"
+            ],
+            "selectedColor": "White",
+            "images": [
+               "askvoll-bed-frame-white-luroey__0.jpg",
+               "askvoll-bed-frame-white-luroey__1.jpg",
+               "askvoll-bed-frame-white-luroey__2.jpg"
+            ]
+         }
+      }
+   ]
 }

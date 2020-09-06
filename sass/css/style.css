@@ -151,8 +151,8 @@
 #imageDetail #imageContainer #imageContain {
   vertical-align: middle;
   border-style: none;
-  max-width: 450px;
-  max-height: 450px;
+  width: auto;
+  height: auto;
   object-fit: contain;
 }
 #imageDetail button:focus {
@@ -163,16 +163,14 @@
   height: 50px;
   border: none;
   background-color: #fff3ddc2;
-  position: relative;
-  top: 50%;
+  margin: 25% 0;
 }
 #imageDetail .leftArrow {
   float: left;
   height: 50px;
   border: none;
   background-color: #fff3ddc2;
-  position: relative;
-  top: 50%;
+  margin: 25% 0;
 }
 
 #imageInQue {
@@ -183,62 +181,6 @@
   width: 50px;
   height: 50px;
   margin-right: 5px;
-}
-
-#detailsBox {
-  width: 250px;
-  margin-top: 150px;
-  height: 340px;
-  font-family: sans-serif;
-}
-#detailsBox .light-text {
-  color: #b4b4b4;
-  font-size: 12px;
-}
-#detailsBox h3 {
-  color: #0a1c2a;
-}
-#detailsBox p {
-  color: #434344;
-  font-weight: 500;
-  font-size: 12px;
-}
-#detailsBox .colorAvailable {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  display: inline-block;
-}
-#detailsBox .colorAvailable .fas.fa-check {
-  color: white;
-  font-size: 9px;
-  position: relative;
-  bottom: 7px;
-  left: 3px;
-}
-#detailsBox #priceHolder {
-  display: flex;
-}
-#detailsBox #priceHolder #priceValue {
-  font-weight: 700;
-  width: 35%;
-}
-#detailsBox #priceHolder #priceValue span {
-  vertical-align: -webkit-baseline-middle;
-}
-#detailsBox #priceHolder #buyNow {
-  width: 40%;
-}
-#detailsBox #priceHolder #buyNow button {
-  border: none;
-  background-color: #032032;
-  color: white;
-}
-#detailsBox #priceHolder #addToCart {
-  color: #032032;
-  font-size: 18px;
-  width: 25%;
-  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

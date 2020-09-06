@@ -1,0 +1,100 @@
+#imageDetail{
+    width: 100%;
+    height: 450px;
+    #imageContainer{
+        margin: auto;
+        #imageContain{
+            vertical-align: middle;
+            border-style: none;
+            max-width: 450px;
+            max-height: 450px;
+            object-fit: contain;            
+        }
+    }
+   
+    button:focus{
+        outline: none;
+    }
+    .rightArrow{
+        float: right;
+        height: 50px;
+        border: none;
+        background-color: #fff3ddc2;
+        position: relative;
+        top: 50%;
+    }
+    .leftArrow{
+        float: left;
+        height: 50px;
+        border: none;
+        background-color: #fff3ddc2;
+        position: relative;
+        top: 50%;
+    }
+}
+#imageInQue{
+    height: 50px;
+    width: 165px;
+    .nextImages{
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+}
+#detailsBox{
+    width: 250px;
+    margin-top: 150px;
+    height: 340px;
+    font-family: sans-serif;
+    .light-text{
+        color: #b4b4b4;
+        font-size: 12px;
+    }
+    h3{
+        color: #0a1c2a;
+    }
+    p{
+        color: #434344;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .colorAvailable{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: inline-block;
+        .fas.fa-check{
+            color: white;
+            font-size: 9px;
+            position: relative;
+            bottom: 7px;
+            left: 3px;
+        }
+    }
+    #priceHolder{
+        display: flex;
+        #priceValue{
+            font-weight: 700;
+            width: 35%;
+            span{
+                vertical-align: -webkit-baseline-middle;
+            }
+        }
+        #buyNow{
+            button{
+                border: none;
+                background-color: #032032;
+                color: white;
+    
+            }
+            width: 40%;
+        }
+        #addToCart{
+            color: #032032;
+            font-size: 18px;
+            width: 25%;
+            text-align: center;
+        }
+    }
+    
+}
