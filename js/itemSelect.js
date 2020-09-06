@@ -23,7 +23,7 @@
                     rowContainer.append(el1);
                     var colContainer = document.getElementById(el1.id);
                     var el2 = document.createElement("div");
-                    el2.className = "card ";
+                    el2.className = "card m-auto";
                     el2.id = "card" + idx;
                     $(el2).appendTo('body').css('background-image', 'url(' + res.data[idx].displayImg + ')');
                     document.getElementById(el2.id).style.backgroundSize = "cover";

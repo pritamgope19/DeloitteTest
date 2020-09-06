@@ -27,6 +27,16 @@
         border-bottom: 1px solid rgb(243, 178, 124);
         border-radius: 0;
     }
+    @media screen and (min-width: 420px ) {
+        width: 100%;
+        form{
+            display: contents;
+        }
+        .cart{
+            display: none;
+        }
+      }
+
 }
 .cart> i{
     font-weight: 400;

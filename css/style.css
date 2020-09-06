@@ -30,6 +30,17 @@
   border-bottom: 1px solid #f3b27c;
   border-radius: 0;
 }
+@media screen and (min-width: 420px) {
+  .searchBar {
+    width: 100%;
+  }
+  .searchBar form {
+    display: contents;
+  }
+  .searchBar .cart {
+    display: none;
+  }
+}
 
 .cart > i {
   font-weight: 400;
@@ -45,18 +56,10 @@
   font-weight: bold;
 }
 
-#body-container-left {
-  width: 20%;
-  float: left;
-}
 #body-container-left .filterBy {
   color: rgba(194, 187, 187, 0.849);
 }
 
-#body-container-right {
-  width: 80%;
-  float: left;
-}
 #body-container-right #card-container .card {
   width: 300px;
   height: 365px;
@@ -145,15 +148,25 @@
   width: 100%;
   height: 450px;
 }
+@media screen and (min-width: 420px) and (max-width: 620px) {
+  #imageDetail {
+    width: 100%;
+  }
+}
 #imageDetail #imageContainer {
   margin: auto;
+  width: 90%;
 }
 #imageDetail #imageContainer #imageContain {
   vertical-align: middle;
   border-style: none;
-  max-width: 450px;
-  max-height: 450px;
+  width: 100%;
   object-fit: contain;
+}
+@media screen and (min-width: 575px) and (max-width: 620px) {
+  #imageDetail #imageContainer #imageContain {
+    max-width: 250px;
+  }
 }
 #imageDetail button:focus {
   outline: none;
@@ -164,7 +177,15 @@
   border: none;
   background-color: #fff3ddc2;
   position: relative;
-  top: 50%;
+  top: 45%;
+  width: 5%;
+}
+@media screen and (min-width: 420px) and (max-width: 620px) {
+  #imageDetail .rightArrow {
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+  }
 }
 #imageDetail .leftArrow {
   float: left;
@@ -172,7 +193,15 @@
   border: none;
   background-color: #fff3ddc2;
   position: relative;
-  top: 50%;
+  top: 45%;
+  width: 5%;
+}
+@media screen and (min-width: 420px) and (max-width: 620px) {
+  #imageDetail .leftArrow {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+  }
 }
 
 #imageInQue {
@@ -191,6 +220,13 @@
   height: 340px;
   font-family: sans-serif;
 }
+@media screen and (min-width: 420px) and (max-width: 620px) {
+  #detailsBox {
+    margin: auto;
+    margin-top: 100px;
+    width: 220px;
+  }
+}
 #detailsBox .light-text {
   color: #b4b4b4;
   font-size: 12px;
@@ -202,6 +238,7 @@
   color: #434344;
   font-weight: 500;
   font-size: 12px;
+  text-align: justify;
 }
 #detailsBox .colorAvailable {
   width: 15px;
